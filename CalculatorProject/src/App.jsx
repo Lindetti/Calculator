@@ -46,6 +46,7 @@ useEffect(() => {
 
   return (
     <div className="wrapper">
+      <h2>Coded by Alexander Lind</h2>
       <div className="phoneScale"> 
       <div className="upperDiv">
      <div className="time">

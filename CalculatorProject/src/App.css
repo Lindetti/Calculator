@@ -6,6 +6,7 @@
 .wrapper {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
@@ -95,7 +96,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   height: 100%;
+  text-align: center;
 }
 
 /*Button styling*/
@@ -109,6 +112,10 @@ button {
   height: 55px;
   margin: 0.5rem;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .greyBtn {
@@ -130,7 +137,7 @@ button {
   width: 126px;
   border-radius: 100px;
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
   padding-left: 1.4rem;
 }
 
