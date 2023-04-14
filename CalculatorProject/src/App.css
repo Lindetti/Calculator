@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone {
+  width: 340px;
+  background-color: black;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: 6px solid rgb(156, 156, 156);
+}
+
+.result {
+  height: 220px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-size: 4rem;
+}
+
+.testDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 270px;
+  overflow: hidden;
+}
+
+.calculator-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.buttonDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+
+
+button {
+  border-radius: 50%;
+  border: none;
+  font-size: 1.5rem;
+  background-color: grey;
+  color: white;
+  width: 55px;
+  height: 55px;
+  margin: 0.5rem;
+}
+
+.greyBtn {
+  background-color: lightgray;
+  color: black;
+}
+
+.orangeBtn {
+  background-color: orange;
+  color: white;
+}
+
+.biggerBtn {
+  width: 126px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 1.4rem;
+}
+
+.borderDiv {
+  width: 100px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.border {
+  background-color: white;
+  height: 2px;
+}
