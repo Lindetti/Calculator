@@ -128,11 +128,6 @@ button {
   color: white;
 }
 
-.orangeBtnClicked {
-  background-color: white;
-  color: orange;
-}
-
 .biggerBtn {
   width: 126px;
   border-radius: 100px;
